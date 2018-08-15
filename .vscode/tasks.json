@@ -6,13 +6,16 @@
             "type": "shell",
             "command": "make",
             "windows":{
-                "command": "make"
+                "command": "make",
+                "options": {
+                    "cwd": "${workspaceRoot}",
+                    "env": {
+                        "PATH": "C:\\msys64\\usr\\bin\\;C:\\msys64\\mingw64\\bin"
+                    }
+            }
             },
             "options": {
                 "cwd": "${workspaceRoot}",
-                "env":{
-                    "PATH": "C:\\msys64\\usr\\bin\\;C:\\msys64\\mingw64\\bin"
-                }
             },
             "group": {
                 "kind": "build",

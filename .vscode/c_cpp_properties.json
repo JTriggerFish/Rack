@@ -25,6 +25,32 @@
             },
             "cStandard": "c11",
             "cppStandard": "c++17"
+        },
+        {
+            "name": "Mac",
+            "intelliSenseMode": "clang-x64",
+            "includePath": [
+                "${workspaceFolder}",
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE"
+            ],
+            "macFrameworkPath": [ "/System/Library/Frameworks" ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "${workspaceFolder}/dep",
+                    "C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/8.2.0/include",
+                    "C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/8.2.0/include-fixed",
+                    "C:/msys64/mingw64/include/*"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "cStandard": "c11",
+            "cppStandard": "c++17"
         }
     ],
     "version": 4
